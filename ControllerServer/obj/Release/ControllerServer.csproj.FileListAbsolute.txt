@@ -1,0 +1,32 @@
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\ControllerServer.exe.config
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\ControllerServer.exe
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\ControllerServer.pdb
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\Newtonsoft.Json.dll
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\Microsoft.Xna.Framework.dll
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\Newtonsoft.Json.xml
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\Microsoft.Xna.Framework.xml
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.csprojResolveAssemblyReference.cache
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.Form1.resources
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.Properties.Resources.resources
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.csproj.GenerateResource.Cache
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.exe
+C:\Users\Venky\documents\visual studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.pdb
+C:\Users\Venky\Documents\Visual Studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\ControllerServer.exe.manifest
+C:\Users\Venky\Documents\Visual Studio 2013\Projects\ControllerServer\ControllerServer\bin\Release\ControllerServer.application
+C:\Users\Venky\Documents\Visual Studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.exe.manifest
+C:\Users\Venky\Documents\Visual Studio 2013\Projects\ControllerServer\ControllerServer\obj\Release\ControllerServer.application
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\bin\Release\ControllerServer.exe.config
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.exe
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.pdb
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\bin\Release\ControllerServer.exe.manifest
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\bin\Release\ControllerServer.application
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\bin\Release\ControllerServer.exe
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\bin\Release\ControllerServer.pdb
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\bin\Release\Newtonsoft.Json.dll
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\bin\Release\Newtonsoft.Json.xml
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.csprojResolveAssemblyReference.cache
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.Form1.resources
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.Properties.Resources.resources
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.csproj.GenerateResource.Cache
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.exe.manifest
+F:\PACKAGE\Windows_Programming\Desktop_App\ControllerServer\ControllerServer\obj\Release\ControllerServer.application

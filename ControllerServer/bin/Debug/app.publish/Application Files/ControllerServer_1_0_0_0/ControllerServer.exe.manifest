@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ControllerServer.exe" version="1.0.0.0" publicKeyToken="8377a34ed1fb8241" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ControllerServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ControllerServer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Input.Touch" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System" version="2.0.5.0" publicKeyToken="7CEC85D7BEA7798E" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ControllerServer.exe" size="22016">
+      <assemblyIdentity name="ControllerServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>po3E9pQjZHn/UxrmKJnidKBmRDAdBMTPMTceGx9ppAc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Xna.Framework.dll" size="87304">
+      <assemblyIdentity name="Microsoft.Xna.Framework" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v8bPqsPXgpcGHDiFNVAOVb3j3GGwANNJR3OwR5ukOMA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="500224">
+      <assemblyIdentity name="Newtonsoft.Json" version="6.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Aw5znLpgw7RgTuFXRJeuvIkrfOsM5E3Tn9Hvd2ei8TQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ControllerServer.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VENKY-PC\Venky" issuerKeyHash="f91ec645bcd4b848685d049ca05e3cd68e8943fb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4D1AYDpthwAjxadOjXwVTCBIwn4X6dFkHb4FlAEVOTs=</DigestValue></Reference></SignedInfo><SignatureValue>F7CYc1hw748+SW2sKuL5Ihf4cSmck5EJv+4x4xL96hp61nDXxayxSV14aEPlq5E9+2nhwAeSRqzIkNeXx0VE7TgI+c+iHnfs+8Y+QUyIH2xs+KS/uk+xOWvP+dpScd2Gh2HMczf0p7/NKI3SkhW80LLHJCrQOKJUWWFPW+ZTF0s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uoOeFPcN3sYqx2H206z2QsHepOViIo1nnlMpiKnBolLI7N75IR8TXeZ88yGaWecEPZb0aNE4DXeZKnT3TP6+EGRmNJK8kEhz7t5R276nOL1fThtO4j1hs4PVm7eNeoQcfb/m8dDhMSHLHIRy5+EElYN4/SsDI8cL2yIQw1uIpSU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3b3915019405be1d64d1e9177ec248204c157c8d4ea7c52300876d3a60403de0" Description="" Url=""><as:assemblyIdentity name="ControllerServer.exe" version="1.0.0.0" publicKeyToken="8377a34ed1fb8241" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VENKY-PC\Venky</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pOodZ7lcZArB8viY6xBghM6b/yX2RXwkXZj8tyf/Xtc=</DigestValue></Reference></SignedInfo><SignatureValue>ME/NN/6ID5Ub9OdoehtxDI1Yk5u7lSxMz+4mNSka5jd91U23r+atnYfeL4Vl004Rus0e6OIMAWh8Si5QEoI8kG+rZaCDSQluqzyltNPnvp6qrhOV2TCaf/N2oNh5Vrk9jBnu21n0KVaKXBb7npBSQnDbF0e6GDpbf/N7RMTWmKU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uoOeFPcN3sYqx2H206z2QsHepOViIo1nnlMpiKnBolLI7N75IR8TXeZ88yGaWecEPZb0aNE4DXeZKnT3TP6+EGRmNJK8kEhz7t5R276nOL1fThtO4j1hs4PVm7eNeoQcfb/m8dDhMSHLHIRy5+EElYN4/SsDI8cL2yIQw1uIpSU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQVzjwmW5I+6pErweuAZxeaTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAVgBFAE4ASwBZAC0AUABDAFwAVgBlAG4AawB5MB4XDTE0MDczMDIwNTIwN1oXDTE1MDczMTAyNTIwN1owJzElMCMGA1UEAx4cAFYARQBOAEsAWQAtAFAAQwBcAFYAZQBuAGsAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuoOeFPcN3sYqx2H206z2QsHepOViIo1nnlMpiKnBolLI7N75IR8TXeZ88yGaWecEPZb0aNE4DXeZKnT3TP6+EGRmNJK8kEhz7t5R276nOL1fThtO4j1hs4PVm7eNeoQcfb/m8dDhMSHLHIRy5+EElYN4/SsDI8cL2yIQw1uIpSUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBI6n/4Yjs/+aa6xzUc7v6go5CEdBYqWq1Fw9OJo46JBpD39xdjpLtZmBHFtL+TeDwzmny845y0MmIYsZd3F8xJhnUofGtlNR/BRln7x9hWy7fpS3s5AOVk1tfEwjdat3Bjbv9ZUFiWRKMzvWJ5CcbAAU0EZl/8hOBHHwePXgDWPA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
